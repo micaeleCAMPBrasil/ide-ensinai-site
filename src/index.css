@@ -10,13 +10,20 @@
     text-decoration: none;
 }
 
+/* --color-bg: #1f1f38;
+--color-bg-variant: #2c2c6c;
+--color-primary: #4db5ff;
+--color-primary-variant: rgba(77, 181, 255, 0.4);
+--color-white: #fff;
+--color-ligth: rgba(255, 255, 255, 0.6); */
+
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
-    --color-ligth: rgba(255,255,255,0.6);
+    --color-ligth: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
 
@@ -30,11 +37,11 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
@@ -48,7 +55,11 @@ body{
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
 
@@ -60,12 +71,13 @@ section {
     margin-top: 8rem;
 }
 
-section > h2, section >h5 {
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-ligth);
 }
 
-section > h2 {
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -128,7 +140,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section>h2 {
         margin-top: 2rem;
     }
 }
