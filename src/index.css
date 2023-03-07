@@ -17,12 +17,27 @@
 --color-white: #fff;
 --color-ligth: rgba(255, 255, 255, 0.6); */
 
-:root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+
+/* --color-bg: #0f2e13;
+--color-bg-variant: #3f9b23cc;
+--color-primary: #3ca84aee;
+--color-primary-variant: rgba(30, 116, 30, 0.4);
+--color-white: #fff;
+--color-ligth: rgba(255, 255, 255, 0.6); */
+
+/*--color-bg: #472403;
+    --color-bg-variant: #d36804;
+    --color-primary: #ffb25a;
+    --color-primary-variant: rgba(182, 93, 21, 0.4);
     --color-white: #fff;
+    --color-ligth: rgba(255, 255, 255, 0.6);*/
+
+:root {
+    --color-bg: #eeeeee;
+    --color-bg-variant: #d36804;
+    --color-primary: #ffb25a;
+    --color-primary-variant: rgba(182, 93, 21, 0.4);
+    --color-white: #1b1e6d;
     --color-ligth: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;

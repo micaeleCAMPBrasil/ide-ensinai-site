@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import LOGO from '../../assets/logo-branca.png'
+import LOGO from '../../assets/logo.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
@@ -9,8 +9,8 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Bem-Vindo</h5>
-        <h1>Projeto Ide e Ensinai</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h1>Instituto Ide e Ensinai</h1>
+        <h5 className="text-light"> Sim a vida! Um projeto que aborda temas como preconceito, suicídio e aborto.</h5>
         
         <CTA />
         

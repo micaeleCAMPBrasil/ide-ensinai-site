@@ -1,27 +1,18 @@
 import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+import Home from './Home'
+import SaibaMais from './SaibaMais'
 
 const App = () => {
   return (
-    <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/saibaMais" element={<SaibaMais />} />
+      </Routes>
+    </Router>
   )
 }
 
